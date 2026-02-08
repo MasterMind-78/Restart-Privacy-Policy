@@ -114,6 +114,7 @@
     <li><strong>User Progress:</strong> Streaks, habits, journey entries, moods, and self-reported benefits.</li>
     <li><strong>Community Data:</strong> Posts, comments, likes, reports, and blocking actions.</li>
     <li><strong>App Usage:</strong> Basic usage data for syncing progress and improving stability.</li>
+    <li><strong>Subscription Status:</strong> Whether your subscription is active, expired, or canceled (via RevenueCat).</li>
   </ul>
 
   <p>
@@ -140,9 +141,56 @@
   </p>
 
   <h2>5. Payments & Subscriptions</h2>
+
   <p>
-    Restart is currently <strong>free to use</strong>.
-    There are no subscriptions or in-app purchases at this time.
+    Access to the full Restart experience requires an active subscription.
+    While users may complete onboarding and view introductory screens, continued use of the app’s core features is available only to subscribed users.
+  </p>
+
+  <p>
+    Restart offers auto-renewing subscriptions that unlock all features, including:
+  </p>
+
+  <ul>
+    <li>Structured recovery programs</li>
+    <li>Habit tracking and progress analytics</li>
+    <li>Community access and participation</li>
+    <li>Premium guidance and resources</li>
+  </ul>
+
+  <p>
+    All payments are processed securely by Apple through the App Store.
+    Restart does not collect, store, or have access to your credit card or payment details.
+  </p>
+
+  <ul>
+    <li>Subscriptions automatically renew unless canceled at least 24 hours before the end of the current billing period.</li>
+    <li>You can manage or cancel your subscription at any time in your Apple ID settings.</li>
+    <li>Restart uses <strong>RevenueCat</strong> to verify subscription status and grant or remove access accordingly.</li>
+  </ul>
+
+  <p>
+    RevenueCat receives information about whether your subscription is active, expired, or canceled, but does not receive your payment details.
+  </p>
+
+  <h2>5A. RevenueCat & Subscription Verification</h2>
+
+  <p>
+    Restart integrates with RevenueCat, a third-party service that helps us manage subscriptions
+    and determine whether a user is authorized to access premium features.
+  </p>
+
+  <ul>
+    <li>RevenueCat may process anonymous device identifiers.</li>
+    <li>RevenueCat tracks whether your subscription is active, expired, or canceled.</li>
+    <li>No sensitive personal data or payment details are shared with RevenueCat.</li>
+  </ul>
+
+  <p>
+    For more information, you can review RevenueCat’s privacy policy at:
+    <a href="https://www.revenuecat.com/privacy" target="_blank">
+      https://www.revenuecat.com/privacy
+    </a>
   </p>
 
   <h2>6. Health & Content Disclaimer</h2>
@@ -164,6 +212,7 @@
   <ul>
     <li>Firebase (Google) – Authentication and secure database</li>
     <li>Sign in with Apple / Google Sign-In</li>
+    <li>RevenueCat – Subscription management and entitlement verification</li>
   </ul>
 
   <h2>9. Children’s Privacy</h2>
